@@ -11,7 +11,7 @@ html, body {
     height: 100vh;
     background-color: black;
 }
-main {
+body {
     position: relative;
     height: 100vh;
     background-color: green;
@@ -20,28 +20,30 @@ main {
     background-size: cover;
 }
 
+main {
+    position: relative;
+    height: 100vh;
+}
+
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
-
+    transform: translate(-50%, -50%);
 
     height: 627px;
     width: 311px;
-    
-    background: url(../imagens/frame-iphone.png) no-repeat;
-
-
+    transform: translate(-50px -50px);
+    background: url(../imagens/frame-iphone.png) no-repeat;    
 }
 
 iframe#tela {
     position: relative;
     top: 82px;
     left: 23px;
-
     width: 265px;
     height: 468px;
+
     background-size:auto;
 }
 
